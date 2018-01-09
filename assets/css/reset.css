@@ -1,0 +1,54 @@
+*{
+	margin: 0px;
+	padding:0px;
+}
+body
+{
+	font-size:14px;
+	font-family:'microsoft yahei';
+	color:#242e49;
+	/*background-color: #fff;*/
+}
+a
+{
+	color:#333;
+	cursor:pointer;
+	text-decoration: none;
+}
+a:hover,a:focus
+{
+	color:#333;
+	text-decoration:none;
+}
+a:focus
+{
+	outline:none;
+}
+ul
+{
+	padding-left:0;
+}
+li{
+	list-style: none;
+}
+input
+{
+	outline:0;
+}
+table.center th,table.center td{
+	text-align: center;
+	vertical-align: middle !important;
+}
+.clearfix::before,  
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.nomargin{
+	margin: 0px !important;
+}
+.underline{
+	text-decoration: underline ;
+}
+
